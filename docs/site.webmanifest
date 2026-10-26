@@ -1,0 +1,21 @@
+{
+  "name": "Tennessee Eats",
+  "short_name": "TN Eats",
+  "description": "Hot chicken, BBQ & biscuits: a guide to 14,862 Tennessee restaurants.",
+  "start_url": "/tennessee-eats/",
+  "display": "browser",
+  "background_color": "#f3f5fa",
+  "theme_color": "#002d72",
+  "icons": [
+    {
+      "src": "/tennessee-eats/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/tennessee-eats/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

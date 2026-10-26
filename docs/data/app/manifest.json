@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "version": "2026-10-24.1",
+ "records_through": "2026-10-24",
+ "published": "2026-10-26T14:19:50Z",
+ "min_app_build": 1,
+ "files": {
+  "detail-chattanooga-southeast-tennessee": {
+   "path": "detail-chattanooga-southeast-tennessee-6c044083973c.json",
+   "sha256": "6c044083973c0b81176e03a45f6f6028c9494ffd0589306cc08534521ca6e2b6",
+   "bytes": 139625,
+   "rows": 2043
+  },
+  "detail-knoxville-the-smokies": {
+   "path": "detail-knoxville-the-smokies-37e713329565.json",
+   "sha256": "37e713329565476a257fba090f7c7430c986d64d127d9726a4e37ce354e460a2",
+   "bytes": 205412,
+   "rows": 2976
+  },
+  "detail-memphis-west-tennessee": {
+   "path": "detail-memphis-west-tennessee-0311b8fc7c57.json",
+   "sha256": "0311b8fc7c578c1341811baa901a06e4defd4ebe4b2229ea2bed2efae0663dc4",
+   "bytes": 181574,
+   "rows": 2784
+  },
+  "detail-nashville-middle-tennessee": {
+   "path": "detail-nashville-middle-tennessee-75f030e6b067.json",
+   "sha256": "75f030e6b067d2bf18747680ac7f10ae584d6921877aa65f92be3b9f4aa63eda",
+   "bytes": 479205,
+   "rows": 6246
+  },
+  "detail-tri-cities-northeast-tennessee": {
+   "path": "detail-tri-cities-northeast-tennessee-694f52296e6c.json",
+   "sha256": "694f52296e6ca936d85f4fcb685083cc4514caeb438e9026b5c170da812cb708",
+   "bytes": 67855,
+   "rows": 967
+  },
+  "places": {
+   "path": "places-4d88c33a1bbd.json",
+   "sha256": "4d88c33a1bbd85f156f2d4ec7428f24ec263f82b51605eed76daa05017f3b851",
+   "bytes": 2465241,
+   "rows": 15305
+  }
+ },
+ "counts": {
+  "places": 15305,
+  "files": 6,
+  "bytes": 3538912,
+  "restaurants": 14862
+ }
+}
