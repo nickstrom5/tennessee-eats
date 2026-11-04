@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-11-03",
  "domain": "https://nickstrom5.github.io/tennessee-eats",
- "restaurants": 14862,
+ "restaurants": 14856,
  "places_incl_hidden": 15305,
  "towns": 404,
  "counties": 95,
@@ -23,7 +23,7 @@
  },
  "james_beard": 12,
  "americas_classics": 2,
- "permits_updated": "2026-10-24",
+ "permits_updated": "2026-11-03",
  "city_pages": {
   "Nashville": {
    "restaurants": 2135,
@@ -50,7 +50,7 @@
    "oldest": 2
   },
   "Knoxville": {
-   "restaurants": 1002,
+   "restaurants": 1000,
    "listed": 5,
    "hotchicken": 0,
    "bbq": 0,
@@ -86,7 +86,7 @@
    "oldest": 1
   },
   "Pigeon Forge": {
-   "restaurants": 171,
+   "restaurants": 170,
    "listed": 4,
    "hotchicken": 0,
    "bbq": 0,
@@ -120,16 +120,16 @@
  "noindex_pages": [],
  "web_app_data_bytes": {
   "data/core.json": {
-   "raw": 1207432,
-   "gzip": 246418
+   "raw": 1206991,
+   "gzip": 246339
   },
   "data/detail-anderson-county.json": {
    "raw": 10257,
-   "gzip": 2705
+   "gzip": 2700
   },
   "data/detail-bedford-county.json": {
    "raw": 5241,
-   "gzip": 1609
+   "gzip": 1610
   },
   "data/detail-benton-county.json": {
    "raw": 1396,
@@ -137,15 +137,15 @@
   },
   "data/detail-bledsoe-county.json": {
    "raw": 719,
-   "gzip": 337
+   "gzip": 338
   },
   "data/detail-blount-county.json": {
    "raw": 14603,
-   "gzip": 3916
+   "gzip": 3926
   },
   "data/detail-bradley-county.json": {
    "raw": 12940,
-   "gzip": 3449
+   "gzip": 3439
   },
   "data/detail-campbell-county.json": {
    "raw": 3201,
@@ -157,15 +157,15 @@
   },
   "data/detail-carroll-county.json": {
    "raw": 1984,
-   "gzip": 651
+   "gzip": 650
   },
   "data/detail-carter-county.json": {
    "raw": 4865,
-   "gzip": 1408
+   "gzip": 1411
   },
   "data/detail-cheatham-county.json": {
    "raw": 3861,
-   "gzip": 1147
+   "gzip": 1149
   },
   "data/detail-chester-county.json": {
    "raw": 1504,
@@ -177,7 +177,7 @@
   },
   "data/detail-clay-county.json": {
    "raw": 738,
-   "gzip": 335
+   "gzip": 334
   },
   "data/detail-cocke-county.json": {
    "raw": 3132,
@@ -185,43 +185,43 @@
   },
   "data/detail-coffee-county.json": {
    "raw": 8264,
-   "gzip": 2214
+   "gzip": 2225
   },
   "data/detail-crockett-county.json": {
    "raw": 918,
-   "gzip": 378
+   "gzip": 379
   },
   "data/detail-cumberland-county.json": {
    "raw": 6006,
-   "gzip": 1691
+   "gzip": 1694
   },
   "data/detail-davidson-county.json": {
-   "raw": 194798,
-   "gzip": 41852
+   "raw": 194733,
+   "gzip": 41797
   },
   "data/detail-decatur-county.json": {
    "raw": 937,
-   "gzip": 362
+   "gzip": 361
   },
   "data/detail-dekalb-county.json": {
    "raw": 2230,
-   "gzip": 765
+   "gzip": 766
   },
   "data/detail-dickson-county.json": {
    "raw": 7131,
-   "gzip": 2034
+   "gzip": 2033
   },
   "data/detail-dyer-county.json": {
    "raw": 3219,
-   "gzip": 997
+   "gzip": 998
   },
   "data/detail-fayette-county.json": {
    "raw": 2441,
-   "gzip": 814
+   "gzip": 815
   },
   "data/detail-fentress-county.json": {
    "raw": 1562,
-   "gzip": 589
+   "gzip": 592
   },
   "data/detail-franklin-county.json": {
    "raw": 3551,
@@ -229,19 +229,19 @@
   },
   "data/detail-gibson-county.json": {
    "raw": 4390,
-   "gzip": 1229
+   "gzip": 1228
   },
   "data/detail-giles-county.json": {
    "raw": 3294,
-   "gzip": 1005
+   "gzip": 1003
   },
   "data/detail-grainger-county.json": {
    "raw": 1167,
-   "gzip": 448
+   "gzip": 446
   },
   "data/detail-greene-county.json": {
    "raw": 7052,
-   "gzip": 1850
+   "gzip": 1857
   },
   "data/detail-grundy-county.json": {
    "raw": 679,
@@ -249,15 +249,15 @@
   },
   "data/detail-hamblen-county.json": {
    "raw": 9063,
-   "gzip": 2434
+   "gzip": 2431
   },
   "data/detail-hamilton-county.json": {
-   "raw": 58137,
-   "gzip": 13900
+   "raw": 58134,
+   "gzip": 13889
   },
   "data/detail-hancock-county.json": {
    "raw": 357,
-   "gzip": 215
+   "gzip": 216
   },
   "data/detail-hardeman-county.json": {
    "raw": 1550,
@@ -269,11 +269,11 @@
   },
   "data/detail-hawkins-county.json": {
    "raw": 4231,
-   "gzip": 1201
+   "gzip": 1205
   },
   "data/detail-haywood-county.json": {
    "raw": 1779,
-   "gzip": 619
+   "gzip": 621
   },
   "data/detail-henderson-county.json": {
    "raw": 2776,
@@ -281,39 +281,39 @@
   },
   "data/detail-henry-county.json": {
    "raw": 3396,
-   "gzip": 1039
+   "gzip": 1037
   },
   "data/detail-hickman-county.json": {
    "raw": 1410,
-   "gzip": 498
+   "gzip": 497
   },
   "data/detail-houston-county.json": {
    "raw": 508,
-   "gzip": 228
+   "gzip": 229
   },
   "data/detail-humphreys-county.json": {
    "raw": 1958,
-   "gzip": 666
+   "gzip": 665
   },
   "data/detail-jackson-county.json": {
    "raw": 667,
-   "gzip": 302
+   "gzip": 301
   },
   "data/detail-jefferson-county.json": {
    "raw": 6063,
-   "gzip": 1732
+   "gzip": 1734
   },
   "data/detail-johnson-county.json": {
    "raw": 1259,
-   "gzip": 467
+   "gzip": 466
   },
   "data/detail-knox-county.json": {
-   "raw": 70428,
-   "gzip": 16426
+   "raw": 70337,
+   "gzip": 16434
   },
   "data/detail-lake-county.json": {
    "raw": 569,
-   "gzip": 278
+   "gzip": 279
   },
   "data/detail-lauderdale-county.json": {
    "raw": 1428,
@@ -321,11 +321,11 @@
   },
   "data/detail-lawrence-county.json": {
    "raw": 3721,
-   "gzip": 1084
+   "gzip": 1085
   },
   "data/detail-lewis-county.json": {
    "raw": 1078,
-   "gzip": 416
+   "gzip": 415
   },
   "data/detail-lincoln-county.json": {
    "raw": 2951,
@@ -333,15 +333,15 @@
   },
   "data/detail-loudon-county.json": {
    "raw": 5872,
-   "gzip": 1683
+   "gzip": 1686
   },
   "data/detail-macon-county.json": {
    "raw": 1203,
-   "gzip": 435
+   "gzip": 436
   },
   "data/detail-madison-county.json": {
-   "raw": 15851,
-   "gzip": 4153
+   "raw": 15787,
+   "gzip": 4139
   },
   "data/detail-marion-county.json": {
    "raw": 3747,
@@ -349,19 +349,19 @@
   },
   "data/detail-marshall-county.json": {
    "raw": 2635,
-   "gzip": 838
+   "gzip": 834
   },
   "data/detail-maury-county.json": {
    "raw": 14088,
-   "gzip": 3778
+   "gzip": 3779
   },
   "data/detail-mcminn-county.json": {
    "raw": 5430,
-   "gzip": 1545
+   "gzip": 1550
   },
   "data/detail-mcnairy-county.json": {
    "raw": 1866,
-   "gzip": 622
+   "gzip": 623
   },
   "data/detail-meigs-county.json": {
    "raw": 716,
@@ -369,15 +369,15 @@
   },
   "data/detail-monroe-county.json": {
    "raw": 5684,
-   "gzip": 1552
+   "gzip": 1554
   },
   "data/detail-montgomery-county.json": {
    "raw": 27350,
-   "gzip": 6583
+   "gzip": 6575
   },
   "data/detail-moore-county.json": {
    "raw": 315,
-   "gzip": 191
+   "gzip": 192
   },
   "data/detail-morgan-county.json": {
    "raw": 1110,
@@ -385,11 +385,11 @@
   },
   "data/detail-obion-county.json": {
    "raw": 2534,
-   "gzip": 846
+   "gzip": 848
   },
   "data/detail-overton-county.json": {
    "raw": 1400,
-   "gzip": 486
+   "gzip": 489
   },
   "data/detail-perry-county.json": {
    "raw": 444,
@@ -397,7 +397,7 @@
   },
   "data/detail-pickett-county.json": {
    "raw": 502,
-   "gzip": 256
+   "gzip": 258
   },
   "data/detail-polk-county.json": {
    "raw": 1605,
@@ -405,19 +405,19 @@
   },
   "data/detail-putnam-county.json": {
    "raw": 13423,
-   "gzip": 3534
+   "gzip": 3535
   },
   "data/detail-rhea-county.json": {
    "raw": 4179,
-   "gzip": 1279
+   "gzip": 1280
   },
   "data/detail-roane-county.json": {
    "raw": 4610,
-   "gzip": 1333
+   "gzip": 1336
   },
   "data/detail-robertson-county.json": {
    "raw": 7653,
-   "gzip": 2196
+   "gzip": 2198
   },
   "data/detail-rutherford-county.json": {
    "raw": 45324,
@@ -425,51 +425,51 @@
   },
   "data/detail-scott-county.json": {
    "raw": 1933,
-   "gzip": 632
+   "gzip": 631
   },
   "data/detail-sequatchie-county.json": {
    "raw": 1868,
    "gzip": 633
   },
   "data/detail-sevier-county.json": {
-   "raw": 31964,
-   "gzip": 7814
+   "raw": 31934,
+   "gzip": 7808
   },
   "data/detail-shelby-county.json": {
-   "raw": 110011,
-   "gzip": 26220
+   "raw": 110010,
+   "gzip": 26196
   },
   "data/detail-smith-county.json": {
    "raw": 2110,
-   "gzip": 689
+   "gzip": 690
   },
   "data/detail-stewart-county.json": {
    "raw": 1142,
-   "gzip": 464
+   "gzip": 465
   },
   "data/detail-sullivan-county.json": {
    "raw": 21035,
-   "gzip": 5211
+   "gzip": 5201
   },
   "data/detail-sumner-county.json": {
    "raw": 22209,
-   "gzip": 5620
+   "gzip": 5618
   },
   "data/detail-tipton-county.json": {
    "raw": 4321,
-   "gzip": 1334
+   "gzip": 1335
   },
   "data/detail-trousdale-county.json": {
    "raw": 761,
-   "gzip": 342
+   "gzip": 343
   },
   "data/detail-unicoi-county.json": {
    "raw": 1527,
-   "gzip": 538
+   "gzip": 540
   },
   "data/detail-union-county.json": {
    "raw": 1250,
-   "gzip": 470
+   "gzip": 472
   },
   "data/detail-van-buren-county.json": {
    "raw": 265,
@@ -481,31 +481,31 @@
   },
   "data/detail-washington-county.json": {
    "raw": 19906,
-   "gzip": 4979
+   "gzip": 4972
   },
   "data/detail-wayne-county.json": {
    "raw": 627,
-   "gzip": 292
+   "gzip": 290
   },
   "data/detail-weakley-county.json": {
    "raw": 2885,
-   "gzip": 897
+   "gzip": 896
   },
   "data/detail-white-county.json": {
    "raw": 2646,
-   "gzip": 932
+   "gzip": 934
   },
   "data/detail-williamson-county.json": {
-   "raw": 34213,
-   "gzip": 8721
+   "raw": 34119,
+   "gzip": 8697
   },
   "data/detail-wilson-county.json": {
    "raw": 19475,
-   "gzip": 5041
+   "gzip": 5042
   },
   "data/ids.json": {
-   "raw": 193234,
-   "gzip": 112211
+   "raw": 193156,
+   "gzip": 112164
   },
   "data/tn_shapes.json": {
    "raw": 100561,
