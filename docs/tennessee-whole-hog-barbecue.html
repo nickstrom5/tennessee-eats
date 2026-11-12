@@ -2,7 +2,7 @@
 <html lang="en" data-base="/tennessee-eats">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-1aBRTQeeQSRiYR0EN1nHPARJiA7oiP4Af9xpcJLl3sI='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-9ctKsfVyDxqyv0txcD1f/RC6J+sIFE4ETMl3Vxig5kA='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>West Tennessee Whole Hog BBQ: 7 Hand-Checked Places</title>
 <meta name="description" content="7 Tennessee pits cooking West Tennessee-style whole hog barbecue, each checked in fall 2026 against a 2025–26 source, listed by region and town.">
@@ -29,15 +29,17 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23002D72'/%3E%3Cpath d='M20 51.4H44Q47.7 51.4 47.7 47.7V30C52 25 49 12.8 32 12.8C15 12.8 12 25 16.3 30V47.7Q16.3 51.4 20 51.4Z' fill='%23D99A52'/%3E%3Cpath d='M21.6 49H42.4Q45.3 49 45.3 46.1V29.6C49 25.5 46.6 15.2 32 15.2C17.4 15.2 15 25.5 18.7 29.6V46.1Q18.7 49 21.6 49Z' fill='%23FFF8EC'/%3E%3Cg fill='%23FFF8EC' stroke='%23002D72' stroke-width='1.6'%3E%3Crect x='41' y='32.4' width='11.5' height='3.5' rx='1.7'/%3E%3Ccircle cx='52.4' cy='31.2' r='2.7'/%3E%3Ccircle cx='52.4' cy='37' r='2.7'/%3E%3C/g%3E%3Cpath d='M44.8 31.7C37 29 30 24 21 24C13.5 24 9 28.5 9 33.6C9 39 13.5 43.2 21 43.2C30 43.2 37 38.6 44.8 35.5Z' fill='%23C0391B'/%3E%3Cg fill='%238DB33A'%3E%3Ccircle cx='16.6' cy='30.7' r='3.2'/%3E%3Ccircle cx='24.3' cy='29.1' r='3.2'/%3E%3Ccircle cx='32' cy='30.7' r='3.2'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="/tennessee-eats/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/tennessee-eats/apple-touch-icon.png">
+<link rel="preload" href="/tennessee-eats/fonts/bowlby-one-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="manifest" href="/tennessee-eats/site.webmanifest">
-<style>
+<style>  @font-face { font-family: "Bowlby One"; src: url("/tennessee-eats/fonts/bowlby-one-latin.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
   :root {
     --bg: #f3f5fa; --surface: #fff; --surface2: #e6ebf3; --rule: #dce2ec;
     --ink: #0f1b33; --ink2: #28375a; --muted: #566079;
     --accent: #002d72; --accent2: #1d4a91; --on-accent: #fff; --orange: #c8102e; --on-orange: #fff; --lime: #e8a33d; --soft: #f7dce1; --limesoft: #fbebc8;
     --focus: #c8102e;
     --radius: 16px;
-    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif; --head-font: "Bowlby One", "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   @media (prefers-color-scheme: dark) {
@@ -56,16 +58,16 @@
   header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0 14px; }
   .stripes { display: block; margin: 0 0 4px; border-radius: 4px; overflow: hidden; line-height: 0; }
   .stripes svg { display: block; width: 100%; height: 20px; }
-  .logo { display: flex; align-items: center; gap: 10px; font: 800 24px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
+  .logo { display: flex; align-items: center; gap: 10px; font: 400 18px/1 var(--head-font); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
   .logo svg { flex: 0 0 auto; border-radius: 7px; }
   header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
   header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
   header.site nav a:hover { color: var(--accent); text-decoration: underline; }
-  h1, h2 { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: -.005em; }
-  h1 { font-size: clamp(40px, 8.5vw, 64px); line-height: .95; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-shadow: 3px 3px 0 var(--orange); }
+  h1, h2 { font-family: var(--head-font); font-weight: 400; color: var(--accent); letter-spacing: -.005em; }
+  h1 { font-size: clamp(25px, 7.81vw, 58px); line-height: 1.02; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-wrap: balance; }
   .kicker { font: 600 13px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
   .kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); margin: 0 8px 1px 0; }
-  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
+  h2 { font-size: 26px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
   h3 { font-size: 18px; margin: 0; line-height: 1.3; }
   .lede { font-size: 19px; color: var(--ink2); margin: 0 0 26px; }
   .hero { padding: 44px 0 28px; }
@@ -90,7 +92,7 @@
   .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
-  .card h3 { font: 800 21px/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  .card h3 { font: 400 16px/1.1 var(--head-font); text-transform: uppercase; letter-spacing: .01em; }
   a.card.gc { display: flex; flex-direction: column; gap: 6px; border: 0; border-radius: 18px; min-height: 150px; }
   a.card.gc b { font: 600 32px/1 var(--mono); margin-bottom: auto; }
   a.card.gc p, a.card.gc h3 { color: inherit; }
